@@ -10,22 +10,36 @@
         .custom-heading {
             color: purple;
         }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+
+        }
+        .btn-group-custom{
+            position:absolute;
+            top:10px;
+            right:10px;
+        }
     </style>
 <body>
 
 <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a class="card-title custom-heading" href="#">EduSozluk</a>
+        </div>
+    </nav>
 
-      </from>
-    <div class="navbar-header">
-      <a class="card-title custom-heading" href="#">EduSozluk</a>
+    <div class="search-container">
+        <div class="btn-group btn-group-sm">
+            <input class="form-control me-2" type="text" placeholder="Arama">
+        </div>
     </div>
-      <from class="d-flex">
-          <div class="btn-group btn-group-sm">
-          <input class ="form-control me-2" type ="text" placeholder ="Arama">
-      <button class ="btn btn-success " type ="button"> Giriş</button>&nbsp;
-      <button class ="btn btn-primary "  type ="button">Üye ol</button>
-              </div>
-          </from>
+
+    <div class="btn-group-custom btn-group btn-group-sm">
+        <button class="btn btn-success" type="button">Giriş</button>
+        <button class="btn btn-primary" type="button">Üye Ol</button>
+    </div>
 
     <div class="container mt-5">
   <div class="row">
